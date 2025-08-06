@@ -2,5 +2,5 @@ body
 {
  background-color: aqua;
  display: flex;
- background-image: url('backend/static/img/ratherbefishin.png');
+ background-image: url('static/img/ratherbefishin.png');
 }
