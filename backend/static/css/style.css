@@ -3,4 +3,5 @@ body
  background-color: rgb(192, 179, 0);
  display: flex;
  flex-flow: column;
+ background-image: url('static/img/ratherbefishin.png');
 }
