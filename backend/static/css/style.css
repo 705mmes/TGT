@@ -2,12 +2,8 @@ body
 {
  background-color: aqua;
  display: flex;
+ flex-direction: column;
  background-image: url('static/img/ratherbefishin.png');
-}/* Style the header */
-.header {
-  background-color: #f1f1f1;
-  padding: 20px;
-  text-align: center;
 }
 
 /* Style the top navigation bar */
@@ -31,3 +27,8 @@ body
   background-color: #ddd;
 }
   
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
