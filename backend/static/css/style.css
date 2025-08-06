@@ -1,0 +1,34 @@
+body
+{
+ background-color: rgb(192, 179, 0);
+ display: flex;
+ flex-direction: column;
+ background-image: url('static/img/ratherbefishin.png');
+}
+
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+}
+  
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
