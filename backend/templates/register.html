@@ -12,7 +12,7 @@
 	</div>
 	<div class="right-div">
 		<h1>Login</h1>
-		<form method="POST" action="/login">
+		<form method="POST" action="/auth/register">
 		<label for="username">Nom d'utilisateur :</label>
 		<input type="text" id="username" name="username" required>
 		<label for="email">E-mail :</label>
@@ -25,4 +25,5 @@
 		</form>
 	</div>
 </div>
+<script src="{{ url_for('static', filename='js/auth.js') }}"></script>
 {% endblock %}
