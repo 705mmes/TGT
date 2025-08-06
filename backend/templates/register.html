@@ -5,21 +5,21 @@
 {% endblock %} -->
 
 {% block body %}
-<link rel="stylesheet" href="{{ url_for('static', filename='css/login.css') }}">
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
 <div class="first-div">
 	<div class="left-div">
-		<img src="{{ url_for('static', filename='img/register.jpg') }}" width="800" height="400">
+		<!--<img src="{{ url_for('static', filename='img/register.jpg') }}" width="800" height="400">-->
 	</div>
 	<div class="right-div">
-		<h1>Login</h1>
+		<h1 class="titlesmall">Enregistrement</h1>
 		<form method="POST" action="/login">
-		<label for="username">Nom d'utilisateur :</label>
+		<label for="username">Nom d'utilisateur:</label>
 		<input type="text" id="username" name="username" required>
-		<label for="email">E-mail :</label>
+		<label for="email">E-mail:</label>
 		<input type="text" id="email" name="E-mail" required>
-		<label for="password">Mot de passe :</label>
+		<label for="password">Mot de passe:</label>
 		<input type="password" id="password" name="password" required>
-		<label for="password2">Comfirme Mot de passe :</label>
+		<label for="password2">Confirmez le mot de passe:</label>
 		<input type="password2" id="password2" name="password2" required>
 		<button type="submit">Connexion</button>
 		</form>
