@@ -1,7 +1,7 @@
 from flask import Flask
 
 def create_app():
-	app = Flask(__name__)
+	app = Flask(__name__, static_folder="static")
 
 	from routes.home import home_bp
 	from routes.auth import auth_bp
