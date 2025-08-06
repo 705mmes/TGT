@@ -1,0 +1,14 @@
+# docker compose
+services:
+
+  db:
+    image: postgres
+    restart: always
+    env_file:
+      - .dbenv
+
+  adminer:
+    image: adminer
+    restart: always
+    ports:
+      - 8080:8080
