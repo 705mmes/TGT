@@ -1,6 +1,6 @@
 #!/bin/bash
 
-ENV="env"
+ENV=".env"
 PYCACHE="**/__pychache"
 
 if [ -d "$ENV" ]; then \
