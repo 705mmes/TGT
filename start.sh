@@ -1,6 +1,6 @@
 #!/bin/bash
 
-ENV="env"
+ENV=".env"
 
 if [ ! -d "$ENV" ]; then \
     python3 -m venv $ENV && \
