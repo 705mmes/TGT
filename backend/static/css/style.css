@@ -1,6 +1,6 @@
 body
 {
- background: linear-gradient(rgb(224, 153, 153) 60%, rgb(126, 201, 126) 100%);
+ background: linear-gradient(rgb(224, 153, 153) 20%, rgb(126, 201, 126) 100%);
  display: flex;
  flex-direction: column;
  align-items: center;
