@@ -4,6 +4,14 @@ html {
 body {
     width: 800px;
 }
+:root
+{
+--semiwhite: #f0f0f0;
+}
+@font-face {
+  font-family: 'OCRA';
+  src: url('https://file.garden/aF33yBbMOEh1vH6O/fonts/OCRAEXT.TTF');
+}
 #top_banner {
  display: none;
 }
@@ -11,7 +19,8 @@ body {
 	
 }
 .allMessages {
-	
+	font-family: 'OCRA', Arial, Helvetica, sans-serif;
+	color: var(--semiwhite);	
 }
 .received {
 	
