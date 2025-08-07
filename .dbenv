@@ -1,0 +1,4 @@
+# database env variables
+POSTGRES_PASSWORD=fefe
+POSTGRES_USER=neo
+POSTGRES_DB=tgt_db

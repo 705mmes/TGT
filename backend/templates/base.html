@@ -5,24 +5,35 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link href="static/css/style.css" rel="stylesheet" type="text/css" media="all">
+<link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='img/favicon.png') }}">
+<script src="https://iframe.chat/scripts/main.min.js"></script>
 </head>
 <body>
-    <div class="logoTGT">
-        <a href="/">
-            <img src="static/img/logoTGT.jpg" width="150" height="100">
-        </a>
+    <script type="text/javascript" src="static/js/main.js"></script>
+    <div class="titlecontainer">
+    <a href="/" style="text-decoration: none;">
+        <h1 class="maintitle"><span style="padding-right: 400px;">Track</span><br><span style="font-size: 80px;">Goals</span><br><span style="padding-left: 400px;">Together</span></h1>
+        <!--<div class="logoTGT">
+        <img src="static/img/logoTGT.jpg" width="150" height="100">-->
+    </a>
     </div>
     <div class="navbar">
-        <ul>
-            <li><a href="/auth/login">login</a></li>
-        </ul>
+        <img class="dropshadowpink" src="{{ url_for('static', filename='img/8080_vapor_bust_spin.gif') }}" width="100px">
+        <a href="/auth/login"><div class="navbutton">LOGIN</div></a>
+        <a href="/auth/register"><div class="navbutton">REGISTER</div></a>
+        <img class="dropshadowpink" src="{{ url_for('static', filename='img/y2kstars.png') }}" width="50px">
+        <a href="/auth/login"><div class="navbutton">MEMBERS</div></a>
+        <a href="/auth/login"><div class="navbutton">CREDITS</div></a>
+        <img class="dropshadowpink" src="{{ url_for('static', filename='img/8080_vapor_bust_spin.gif') }}" width="100px">
     </div>
 
     {% block body %}{% endblock %}
 
 <footer>
-  <p>Footer</p>
+    <p style="margin-bottom: 16px;">Track Goals Together<br>© 2025 - Forever!<br>*<br>Proudly made by <a href="https://github.com/Xenhoxi">Xenhoxi</a> and <a href="https://github.com/705mmes">705</a><br>Website layout proudly made by <a target="_blank" href="https://xsolimini.fr">xsolimini</a></p>
+    <div style="margin-left: auto; margin-right: auto;"><a target="_blank" href="https://xsolimini.fr"><img src="https://xsolimini.fr/images/xsoliminishq88x31.gif"></a> <img src="{{ url_for('static', filename='img/ratherbefishin.png') }}"> <img src="{{ url_for('static', filename='img/bestviewedcomp.gif') }}"> <img src="{{ url_for('static', filename='img/xp.gif') }}"> <img src="{{ url_for('static', filename='img/ad37.gif') }}" width="88" height="31"> <img src="{{ url_for('static', filename='img/button-flexbox_by_Yatagarasu.gif') }}"> <img src="{{ url_for('static', filename='img/image (1).png') }}"></div>
 </footer>
-
+<div class="footerdecoration"></div>
+</div>
 </body>
 </html>
