@@ -13,14 +13,16 @@
 	<div class="right-div">
 		<h1 class="titlesmall">Connexion</h1>
 		<div class="center-div">
-		<form method="POST" action="/auth/login">
+		<form method="POST" action="/auth/login" id="auth-form">
 		<label for="username">Nom d'utilisateur:</label>
 		<input type="text" id="username" name="username" required>
 		<label for="password">Mot de passe:</label>
 		<input type="password" id="password" name="password" required>
+		<p id="error-message"></p>
 		<button type="submit" class="buttonsignuplogin">Connexion</button>
 		</form>
 		</div>
 	</div>
 </div>
+<script src="{{ url_for('static', filename='js/auth.js') }}"></script>
 {% endblock %}
