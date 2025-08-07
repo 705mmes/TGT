@@ -1,6 +1,6 @@
 from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
-from models import db, Users
+from models import db, User
 
 def create_app():
 	app = Flask(__name__, static_folder="static")
