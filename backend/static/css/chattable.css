@@ -1,0 +1,66 @@
+html {
+	
+}
+body {
+    width: 800px;
+}
+#top_banner {
+ display: none;
+}
+#background {
+	
+}
+.allMessages {
+	
+}
+.received {
+	
+}
+.sent {
+	
+}
+.msgBody {
+	
+}
+.senderInfo {
+	
+}
+#loadMore {
+	
+}
+#timestamp {
+	
+}
+#settings {
+	/* Controls the settings icon, use background-image to change icon */
+}
+#scrollToBottom {
+	/* Adjusts the hovering 'scroll to bottom' button */
+}
+.ctxMenuOption {
+	/* Adjusts the options for the menus when right clicking a message */
+}
+.mod, .owner, .beta {
+	/* Adjusts the mod, owner, and beta tester badges. */
+}
+#settingsWindow {
+	/* Adjusts the background for the settings window */
+}
+.pinned {
+	
+}
+#replyBanner {
+	
+}
+.emoji {
+	/* Selects emojis that are inside messages */
+}
+#emojiTray {
+	/* Selects the popup box that displays the chat emojis */
+}
+#is_typing {
+	/* Adjusts the bubble that appears when someone is typing */
+}
+#input {
+	
+}
