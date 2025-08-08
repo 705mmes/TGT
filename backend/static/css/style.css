@@ -132,19 +132,21 @@ p
 
 .navbutton {
     width: 200px;
-    height: 60px;
+    height: 76px;
     font-family: 'PlanetKosmos', Arial, Helvetica, sans-serif;
     text-align: center;
     font-size: 24px;
-    line-height: 60px;
     border: 4px solid var(--semiwhite);
-    border-radius: 40px;
+    border-radius: 80px;
     letter-spacing: 2px;
     color: rgb(240, 240, 240);
     /*background: linear-gradient(white 0%, rgb(214 241 160) 25%, rgb(36 121 55) 80%, #252525 100%);*/
     backdrop-filter: blur(2px);
     filter: drop-shadow(2px 2px 4px rgb(255, 155, 155));
     transition: all 1s ease-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .navbutton:hover {
@@ -152,9 +154,40 @@ p
   filter: drop-shadow(2px 2px 8px rgb(224, 255, 188));
   transform: rotate(4deg);
 }
+.navbuttonsmaller {
+    background-color: var(--semiwhite);
+    color: rgb(224, 153, 153);
+    width: 200px;
+    height: 30px;
+    font-family: 'PlanetKosmos', Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 24px;
+    border: 4px solid var(--semiwhite);
+    border-radius: 40px;
+    letter-spacing: 2px;
+    /*background: linear-gradient(white 0%, rgb(214 241 160) 25%, rgb(36 121 55) 80%, #252525 100%);*/
+    backdrop-filter: blur(2px);
+    filter: drop-shadow(2px 2px 4px rgb(255, 155, 155));
+    transition: all 1s ease-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbuttonsmaller:hover {
+    /*background: linear-gradient(white 0%, rgb(241 160 160) 25%, rgb(109, 34, 34) 80%, #252525 100%);*/
+  filter: drop-shadow(2px 2px 8px rgb(224, 255, 188));
+  transform: rotate(4deg);
+}
 .navbar a
 {
   text-decoration: none;
+}
+.loginregisternavbar
+{
+  display: flex;
+  flex-flow: column;
+  gap: 4px;
 }
 .dropshadowpink
 {

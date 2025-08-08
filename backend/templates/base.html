@@ -20,11 +20,14 @@
     <div class="navbar">
         <!--<img class="dropshadowpink" src="{{ url_for('static', filename='img/8080_vapor_bust_spin.gif') }}" width="100px">-->
         <img class="dropshadowpink" src="{{ url_for('static', filename='img/y2kstars.png') }}" width="80px">
-        <a href="/auth/login"><div class="navbutton">LOGIN</div></a>
-        <a href="/auth/register"><div class="navbutton">REGISTER</div></a>
+        <div class="loginregisternavbar">
+        <a href="/auth/login"><div class="navbuttonsmaller">LOGIN</div></a>
+        <a href="/auth/register"><div class="navbuttonsmaller">REGISTER</div></a>
+        </div>
 <img class="dropshadowpink" src="{{ url_for('static', filename='img/8080_vapor_bust_spin.gif') }}" width="100px">
-        <a href="/auth/login"><div class="navbutton">MEMBERS</div></a>
-        <a href="/auth/login"><div class="navbutton">CREDITS</div></a>
+        <a href="/projects"><div class="navbutton">PROJECTS</div></a>
+        <a href="/members"><div class="navbutton">MEMBERS</div></a>
+        <a href="/credits"><div class="navbutton">CREDITS</div></a>
         <img class="dropshadowpink" style="transform: scaleX(-1);" src="{{ url_for('static', filename='img/y2kstars.png') }}" width="80px">
         <!--<img class="dropshadowpink" src="{{ url_for('static', filename='img/8080_vapor_bust_spin.gif') }}" width="100px">-->
     </div>
