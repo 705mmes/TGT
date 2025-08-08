@@ -1,6 +1,3 @@
-html {
-	
-}
 body {
     width: 800px;
 }
@@ -15,62 +12,30 @@ body {
 #top_banner {
  display: none;
 }
-#background {
-	
-}
 .allMessages {
 	font-family: 'OCRA', Arial, Helvetica, sans-serif;
 	font-size: 14px;
 	color: var(--semiwhite);	
 }
-.received {
-	
-}
-.sent {
-	
-}
-.msgBody {
-	
-}
-.senderInfo {
-	
-}
-#loadMore {
-	
-}
-#timestamp {
-	
-}
+
 #settings {
-	/* Controls the settings icon, use background-image to change icon */
+	filter: invert(100%);
 }
-#scrollToBottom {
-	/* Adjusts the hovering 'scroll to bottom' button */
+
+#emojiTrayToggle {
+	filter: invert(100%);
+	top: 3px;
+	right: 3px;
 }
-.ctxMenuOption {
-	/* Adjusts the options for the menus when right clicking a message */
-}
-.mod, .owner, .beta {
-	/* Adjusts the mod, owner, and beta tester badges. */
-}
-#settingsWindow {
-	/* Adjusts the background for the settings window */
-}
-.pinned {
-	
-}
-#replyBanner {
-	
-}
-.emoji {
-	/* Selects emojis that are inside messages */
-}
-#emojiTray {
-	/* Selects the popup box that displays the chat emojis */
-}
-#is_typing {
-	/* Adjusts the bubble that appears when someone is typing */
-}
+
 #input {
-	
+
+	font-family: 'OCRA', Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	border: 2px solid var(--semiwhite);
+	border-radius: 20px;
+	background-color: #00000000;
+	color: var(--semiwhite);
+	max-width: 755px;
+
 }
