@@ -14,25 +14,25 @@ body
 }
 @font-face {
   font-family: 'PlanetKosmos';
-  src: url('static/fonts/PlanetKosmos.ttf');
+  src: url('/static/fonts/PlanetKosmos.ttf');
 }
 
 @font-face {
   font-family: 'Kredit';
-  src: url('static/fonts/KreditBack.ttf');
+  src: url('/static/fonts/KreditBack.ttf');
 }
 
 @font-face {
   font-family: 'Piersob';
-  src: url('static/fonts/Piersob.otf');
+  src: url('/static/fonts/Piersob.otf');
 }
 @font-face {
   font-family: 'Photonica';
-  src: url('static/fonts/Photonica_straight.ttf');
+  src: url('/static/fonts/Photonica_straight.ttf');
 }
 @font-face {
   font-family: 'OCRA';
-  src: url('static/fonts/OCRAEXT.TTF');
+  src: url('/static/fonts/OCRAEXT.TTF');
 }
 p
 {
@@ -79,7 +79,7 @@ p
 .titlecontainer
 {
   width: 100%;
-  background-image: url('static/img/skyboxes_40.png');
+  background-image: url('/static/img/skyboxes_40.png');
   background-size: cover;
   background-position: bottom;
   filter: hue-rotate(45deg);
@@ -183,7 +183,7 @@ p
   height: 1000px;
   left: 0px;
   bottom: 0px;
-  background-image: url('static/img/foregrounds_11.png');
+  background-image: url('/static/img/foregrounds_11.png');
   background-size: cover;
   filter: hue-rotate(45deg);
   z-index: -1;
@@ -292,7 +292,7 @@ input:focus
 }
 .pictureframeborder
 {
-  border-image-source: url('static/img/border-image.png');
+  border-image-source: url('/static/img/border-image.png');
   border-image-slice: 70;
   border-image-repeat: stretch;
   border-width: 20px;
