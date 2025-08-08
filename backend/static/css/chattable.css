@@ -20,6 +20,7 @@ body {
 }
 .allMessages {
 	font-family: 'OCRA', Arial, Helvetica, sans-serif;
+	font-size: 14px;
 	color: var(--semiwhite);	
 }
 .received {
