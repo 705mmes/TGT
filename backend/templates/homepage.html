@@ -1,8 +1,28 @@
 {% extends 'base.html' %}
 
 {% block body %}
-    <div style="max-width: 800px; width: 100%;">
-	<marquee><h1 style="font-family: 'Piersob'; letter-spacing: 4px; color: var(--semiwhite); filter: drop-shadow(2px 2px 4px rgb(255, 155, 155));">Welcome to TGT</h1></marquee>
+    <div class="dailystuff">
+	<div class="dailystuffline">
+		<div class="windowsxpwindow">
+			<div class="windowsxpwindowtitle">
+				<!--<img src="static/img/Default.png" style="margin-right: 4px;" height="20px">-->
+				<p class="windowsxptexttitle" style="position:relative; top: 4px;">&lt;img&gt; du jour</p>
+				<img src="{{ url_for('static', filename='img/Exit.png') }}" height="23px" style="position:relative; top: 1px; margin-left: 222px;">
+			</div>
+			<div class="windowsxpwindowcontent">
+			<div class="windowsxpwindowimagecontainer">
+				<img src="static/img/gaben.jpg" width="300px;">
+			</div>
+			<div class="windowsxpwindowbutton">
+				<p class="windowsxptext" style="text-align: center;">OK MEC</p>
+			</div>
+			</div>
+		</div>
+	</div>
+	<div style=" transform-origin: center; transform: rotate(-4deg);">
+
+	<marquee><h1 style="font-family: 'Piersob'; letter-spacing: 4px; color: var(--semiwhite); filter: drop-shadow(2px 2px 4px rgb(255, 155, 155));">Welcome to Track Goals Together</h1></marquee>
+	</div>
 	</div>
 		<div class="containermain">
 		<img style="position: absolute; left: -220px; bottom: -40px; z-index: 40; transform: rotate(2deg);" src="{{ url_for('static', filename='img/pillarcolumn2.png') }}">
