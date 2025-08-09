@@ -12,7 +12,8 @@
     <script type="text/javascript" src="static/js/main.js"></script>
     <div class="titlecontainer">
     <a href="/" style="text-decoration: none;">
-        <h1 class="maintitle"><span style="padding-right: 400px;">Track</span><br><span style="font-size: 80px;">Goals</span><br><span style="padding-left: 400px;">Together</span></h1>
+        <img class="maintitle" src="{{ url_for('static', filename='img/TGTlogomain1.png') }}" width="650px">
+        <!--<h1 class="maintitle"><span style="padding-right: 400px;">Track</span><br><span style="font-size: 80px;">Goals</span><br><span style="padding-left: 400px;">Together</span></h1>-->
         <!--<div class="logoTGT">
         <img src="static/img/logoTGT.jpg" width="150" height="100">-->
     </a>
@@ -25,7 +26,7 @@
         <a href="/auth/register"><div class="navbuttonsmaller">REGISTER</div></a>
         </div>
 <img class="dropshadowpink" src="{{ url_for('static', filename='img/8080_vapor_bust_spin.gif') }}" width="90px">
-        <a href="/projects"><div class="navbutton">PROJECTS</div></a>
+        <a href="/projects"><div class="navbutton" title="Projects tracker">P.TRACKER</div></a>
         <a href="/members"><div class="navbutton">MEMBERS</div></a>
         <a href="/credits"><div class="navbutton">CREDITS</div></a>
         <img class="dropshadowpink" style="transform: scaleX(-1);" src="{{ url_for('static', filename='img/y2kstars.png') }}" width="80px">

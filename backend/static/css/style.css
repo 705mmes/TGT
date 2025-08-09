@@ -78,6 +78,9 @@ p
 }
 .titlecontainer
 {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
   width: 100%;
   background-image: url('/static/img/skyboxes_40.png');
   background-size: cover;
